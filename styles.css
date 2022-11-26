@@ -1,14 +1,33 @@
 
     .nav{
-    font-family: roboto;
-    font-size: 100;
-    font-weight: 100;
-font-style: normal; 
-    display: inline-block;
-s  
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 200;
+    font-weight: 200;
+
+    color: black;
+    position: absolute;
+    
+
 }
 
+.photo {
+    display: flex ;
+    justify-content: center;
+}
 img {
-    height: 100px;
-    width: 100px;
+   
+    height: 400px;
+    width: 400px;
+}
+body {
+background-image: url(https://img.freepik.com/free-vector/white-clean-hexagonal-medical-concept_1017-29801.jpg?w=2000);
+}
+.tableau {
+border : 2px solid black ; 
+}
+h1 {
+    text-align: center;
+    text-decoration: solid;
+    color: blueviolet;
 }
